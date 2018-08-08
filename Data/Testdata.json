@@ -1,0 +1,653 @@
+{
+
+ "Login_Page" : "",
+
+  "url" : "http://localhost:8080/zrpe/ui/designer",
+  "Username_Loc" : "//div//input[@ placeholder='User Name']",
+  "Password_Loc" : "//div//input[@ placeholder='Password']",
+  "Username" : "admin",
+  "Password" : "admin",
+  "Username_che" : "mary",
+  "Password_che" : "mary",
+  "Login_Button" : ".v-button",
+  "Default_Value" : "//*[@id='zrpeuidesigner-1465881492']//div//table/tbody/tr/td[@class='v-grid-cell v-grid-cell-focused'][text()='Default']",
+  "Queued_Checkbox": "//*[@id='zrpeuidesigner-1465881492']//div//table/tbody//tr//td//span/input[@type='checkbox']",
+  "claim" : "//*[@id='zrpeuidesigner-1465881492']//div//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']//span[text()='n']",
+  "My_Task" : "//table//tbody//tr//td//div[text()='My Tasks']",
+  "mytask_claim" : "//*[@id='zrpeuidesigner-1465881492']//div//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']//span[text()='j']",
+  "Approve_Popup" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//div[@class='v-window-outerheader']",
+  "Approve_button" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//div[@class='v-button v-widget z-button v-button-z-button button-large v-button-button-large']//span[text()='Approve']",
+
+
+ "Master_To_Draft" : "",
+
+  "Session_details" : "//*[@id='zrpeuidesigner-1465881492']//div//span [text() = 'Session Details']",
+  "Designer_Start" : "//*[@id='zrpeuidesigner-1465881492']/div/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[5]/div/div[3]/div/div[2]/div/div/div[5]/div",
+  "Master_button1" : ".workspace-state-read-only",
+  "Master_Name" : "Master",
+  "Select_Master" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[text() = 'Master']",
+  "Select_Master1" :"//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[text() = 'Master']",
+  "Draft_Icon" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']",
+
+ "Master_Channel" : "",
+
+  "Configuration_Popup_Id" : "//div[@class='popupContent']//div[@class='v-window-header']",
+  "Master_Search" : "//input[@placeholder='Search']",
+  "Channel_Search_Value" : "Channel",
+  "Product_Icon_Channel": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Channel']",
+  "Create_Button" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Create']",
+  "Add_2nd_Channel" : "//*[@id='zrpeuidesigner-1465881492']//div//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']//span[text()='d']",
+  "Save_popup" : "//div[@class='popupContent']/div[@class='v-window-wrap']//div[@class='v-window-header']",
+  "Save_Popup_2" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//div[@class='v-expand']//div[@class='v-menubar v-widget']//span[@class='v-menubar-menuitem']/span[text()='Save']",
+  "Code_2nd" : "//*[@id='zrpeuidesigner-1465881492']//div//span[text()='Code *']",
+  "Channels" : {
+
+      "ChannelCode_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+      "ChannelCode_Value1": "ATM",
+      "ChannelName_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+      "ChannelName_Value1": "ATM",
+      "ChannelDescription_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+      "ChannelDescription_Value1": "Automated Teller Machine to withdraw and/or deposit money",
+      "ChannelCode_Value2": "ONLINE",
+      "ChannelName_Value2": "ONLINE",
+      "ChannelDescription_Value2": "ONLINE Transfers - Send / Receive",
+      "Channel_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+      "Select_channel" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+      "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']",
+      "Cancel" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Cancel']"
+
+   },
+
+  "Currency" : {
+
+    "Currency_Search_Value" : "Currency",
+    "Currency_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Currency']",
+
+    "CurrencyCode_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "CurrencySymbol_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Currency Symbol *']",
+    "CurrencyName_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "CurrencyDescription_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "CurrencyCode_Value1": "CAD",
+    "CurrencyName_Value1": "Canadian Dollar",
+    "CurrencySymbol_Value1": "$",
+    "CurrencyDescription_Value1": "Canadian Dollar",
+    "CurrencyCode_Value2": "USD",
+    "CurrencyName_Value2": "United States Dollar",
+    "CurrencySymbol_Value2": "$",
+    "CurrencyDescription_Value2": "United States Dollar",
+    "Currency_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Currency" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "CusEmpSts" : {
+
+    "CusEmpSts_Search_Value" : "Customer Employee Status",
+    "CusEmpSts_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Customer Employee Status']",
+
+    "CusEmpStsCode_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "CusEmpStsName_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "CusEmpStsDescription_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "CusEmpStsCode_Value1": "EMPLOYEE",
+    "CusEmpStsName_Value1": "Employee",
+    "CusEmpStsDescription_Value1": "Employee",
+    "CusEmpStsCode_Value2": "PARTNER",
+    "CusEmpStsName_Value2": "Partner",
+    "CusEmpStsDescription_Value2": "Partner",
+    "CusEmpSts_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_CusEmpSts" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "CusSeg" : {
+
+    "CusSeg_Search_Value" : "Customer Segment",
+    "CusSeg_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Customer Segment']",
+
+    "CusSegCode_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "CusSegName_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "CusSegDescription_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "CusSegCode_Value1": "GOLD",
+    "CusSegName_Value1": "GOLD",
+    "CusSegDescription_Value1": "GOLD",
+    "CusSegCode_Value2": "PLAT",
+    "CusSegName_Value2": "PLAT",
+    "CusSegDescription_Value2": "PLAT",
+    "CusSeg_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_CusSeg" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "Country" : {
+
+    "Country_Search_Value" : "Country",
+    "Country_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Country']",
+
+    "Country_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Country_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Country_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "Country_Code_Value1": "CA",
+    "Country_Name_Value1": "Canada",
+    "Country_Description_Value1": "Canada",
+    "Country_Code_Value2": "US",
+    "Country_Name_Value2": "United States of America",
+    "Country_Description_Value2": "United States of America",
+    "Country_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Country" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "State" : {
+
+    "State_Search_Value" : "State",
+    "State_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='State']",
+
+    "State_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "State_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "State_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "State_Code_Value1": "QC",
+    "State_Name_Value1": "Quebec",
+    "State_Description_Value1": "Quebec",
+    "State_Code_Value2": "NL",
+    "State_Name_Value2": "Newfoundland and Labrador",
+    "Sel_Country_List1" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-grid-tablewrapper']//table//tr//td[text()='CA']",
+    "Sel_Country_List2" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-grid-tablewrapper']//table//tr//td[text()='US']",
+    "State_Description_Value2": "Territory",
+    "State_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_State" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']",
+    "Select_Country_Click" : "//div[@class='v-panel-content v-panel-content-borderless v-panel-content-lookup-input-border v-scrollable']//div//span[@class='v-menubar-menuitem-caption']/span[text()='_']",
+    "Sel_Country_List3" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-menubar v-widget']//span[@class='v-menubar-menuitem']/span[text()='Select (1)']",
+    "Before_Save" : "//*[@id='zrpeuidesigner-1465881492']//div//span[text()='Overview']"
+  },
+
+  "Region" : {
+
+    "Region_Search_Value" : "Region",
+    "Region_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Region']",
+
+    "Region_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Region_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Region_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "Region_Code_Value1": "M",
+    "Region_Name_Value1": "Toronto",
+    "Region_Description_Value1": "https://en.wikipedia.org/wiki/List_of_M_postal_codes_of_Canada",
+    "Region_Code_Value2": "L",
+    "Region_Name_Value2": "Central Ontario",
+    "Region_Description_Value2": "https://en.wikipedia.org/wiki/List_of_L_postal_codes_of_Canada",
+    "Region_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Region" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+
+  "Mer_Cat" : {
+
+    "Mer_Cat_Search_Value" : "Merchant Category",
+    "Mer_Cat_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Merchant Category']",
+
+    "Mer_Cat_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Mer_Cat_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Mer_Cat_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "Mer_Cat_Code_Value1": "5541",
+    "Mer_Cat_Name_Value1": "Grocery",
+    "Mer_Cat_Description_Value1": "Grocery",
+    "Mer_Cat_Code_Value2": "5411",
+    "Mer_Cat_Name_Value2": "Gas",
+    "Mer_Cat_Description_Value2": "Gas",
+    "Mer_Cat_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Mer_Cat" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "Merchant" : {
+
+    "Merchant_Search_Value" : "Merchant",
+    "Merchant_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Merchant']",
+
+    "Merchant_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Merchant_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Merchant_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "Merchant_Code_Value1": "WALMART",
+    "Merchant_Name_Value1": "Walmart",
+    "Merchant_Description_Value1": "Walmart",
+    "Merchant_Code_Value2": "NIKE",
+    "Merchant_Name_Value2": "NIKE",
+    "Merchant_Description_Value2": "NIKE",
+    "Merchant_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Merchant" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "Excep_Reason" : {
+
+    "Excep_Reason_Search_Value" : "Exception Reason",
+    "Excep_Reason_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Exception Reason']",
+
+    "Excep_Reason_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Excep_Reason_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Excep_Reason_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "Excep_Reason_Code_Value1": "ATTRITION",
+    "Excep_Reason_Name_Value1": "Attrition Customer",
+    "Excep_Reason_Description_Value1": "Customer likely to terminate relationship",
+    "Excep_Reason_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Excep_Reason" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "Cohort_Cat" : {
+
+    "Cohort_Cat_Search_Value" : "Cohort Category",
+    "Cohort_Cat_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Cohort Category']",
+
+    "Cohort_Cat_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Cohort_Cat_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Cohort_Cat_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "Cohort_Cat_Code_Value1": "LS",
+    "Cohort_Cat_Name_Value1": "Life Stage",
+    "Cohort_Cat_Description_Value1": "Life Stage",
+    "Cohort_Cat_Code_Value2": "CT",
+    "Cohort_Cat_Name_Value2": "Customer Type",
+    "Cohort_Cat_Description_Value2": "Customer Types",
+    "Cohort_Cat_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Cohort_Cat" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "Cust_Coh" : {
+
+    "Cust_Coh_Search_Value" : "Customer Cohort",
+    "Cust_Coh_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Customer Cohort']",
+
+    "Cust_Coh_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Cust_Coh_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Cust_Coh_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "Cust_Coh_Code_Value1": "GENERAL",
+    "Cust_Coh_Name_Value1": "General",
+    "Cust_Coh_Description_Value1": "General",
+    "Cust_Coh_Code_Value2": "EMPLOYEE",
+    "Cust_Coh_Name_Value2": "Employee",
+    "Sel_Coh_Cat_List1" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-grid-tablewrapper']//table//tr//td[text()='LS']",
+    "Sel_Coh_Cat_List2" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-grid-tablewrapper']//table//tr//td[text()='CT']",
+    "Cust_Coh_Description_Value2": "Employee",
+    "Cust_Coh_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Cust_Coh" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']",
+    "Cust_Coh_Country_Click" : "//div[@class='v-panel-content v-panel-content-borderless v-panel-content-lookup-input-border v-scrollable']//div//span[@class='v-menubar-menuitem-caption']/span[text()='_']",
+    "Sel_Coh_Cat_List3" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-menubar v-widget']//span[@class='v-menubar-menuitem']/span[text()='Select (1)']",
+    "Before_Save" : "//*[@id='zrpeuidesigner-1465881492']//div//span[text()='Overview']"
+  },
+
+  "Fee_Code" : {
+
+    "Fee_Search_Value" : "Fee Code",
+    "Fee_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Fee Code']",
+
+    "FeeCode_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "FeeCode_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "FeeCode_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+
+    "FeeCode_Code_Value1": "TRF-INT-SEND",
+    "FeeCode_Code_Value2": "TRF-INT-REC",
+    "FeeCode_Code_Value3": "CW-ATM-001",
+    "FeeCode_Code_Value4": "CW-ATM-002",
+    "FeeCode_Code_Value5": "CW-ATM-003",
+    "FeeCode_Code_Value6": "CW-ATM-004",
+    "FeeCode_Code_Value7": "CW-BRN-001",
+    "FeeCode_Code_Value8": "HSAV-AMF-001",
+    "FeeCode_Code_Value9": "TRF-WIRE-DOM",
+    "FeeCode_Code_Value10": "TRF-WIRE-INT",
+
+
+    "FeeCode_Name_Value1": "TRF-INT-SEND",
+    "FeeCode_Name_Value2": "TRF-INT-REC",
+    "FeeCode_Name_Value3": "CW-ATM-001",
+    "FeeCode_Name_Value4": "CW-ATM-002",
+    "FeeCode_Name_Value5": "CW-ATM-003",
+    "FeeCode_Name_Value6": "CW-ATM-004",
+    "FeeCode_Name_Value7": "CW-BRN-001",
+    "FeeCode_Name_Value8": "HSAV-AMF-001",
+    "FeeCode_Name_Value9": "TRF-WIRE-DOM",
+    "FeeCode_Name_Value10": "TRF-WIRE-INT",
+
+
+
+    "FeeCode_Description_Value1": "TRF-INT-SEND",
+    "FeeCode_Description_Value2": "TRF-INT-REC",
+    "FeeCode_Description_Value3": "CW-ATM-001",
+    "FeeCode_Description_Value4": "CW-ATM-002",
+    "FeeCode_Description_Value5": "CW-ATM-003",
+    "FeeCode_Description_Value6": "CW-ATM-004",
+    "FeeCode_Description_Value7": "CW-BRN-001",
+    "FeeCode_Description_Value8": "HSAV-AMF-001",
+    "FeeCode_Description_Value9": "TRF-WIRE-DOM",
+    "FeeCode_Description_Value10": "TRF-WIRE-INT",
+
+
+    "FeeCode_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_FeeCode" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "Tran_Code" : {
+
+    "Tran_Code_Search_Value" : "Transaction Code",
+    "Tran_Code_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Transaction Code']",
+
+    "Tran_Code_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Tran_Code_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Tran_Code_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "Tran_Code_Code_Value1": "ATM",
+    "Tran_Code_Name_Value1": "ATM Withdrawal",
+    "Tran_Code_Description_Value1": "ATM Withdrawal",
+    "Tran_Code_Code_Value2": "EMT",
+    "Tran_Code_Name_Value2": "Interface e-transfer",
+    "Tran_Code_Description_Value2": "Interface e-transfer",
+    "Tran_Code_Code_Value3": "EMT-1",
+    "Tran_Code_Name_Value3": "Interac Transfer - Send",
+    "Tran_Code_Description_Value3": "Interac Transfer - Send",
+    "Tran_Code_Code_Value4": "EMT-2",
+    "Tran_Code_Name_Value4": "Interac Transfer - Receive",
+    "Tran_Code_Description_Value4": "Interac Transfer - Receive",
+    "Tran_Code_Code_Value5": "OATM",
+    "Tran_Code_Name_Value5": "Other Bank ATM ",
+    "Tran_Code_Description_Value5": "Other Bank ATM ",
+    "Tran_Code_Code_Value6": "OATM-1",
+    "Tran_Code_Name_Value6": "Outside Country ATM",
+    "Tran_Code_Description_Value6": "Outside Country ATM",
+    "Tran_Code_Code_Value7": "CWBRN",
+    "Tran_Code_Name_Value7": "Cash Withdrawal at Branch",
+    "Tran_Code_Description_Value7": "Cash Withdrawal at Branch",
+    "Tran_Code_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Tran_Code" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "Month_day" : {
+
+    "Month_day_Search_Value" : "Month Day",
+    "Month_day_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Month Day']",
+    "Month_day_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Month_day_Code_Value1": "MD_001",
+    "Month_day_Code_Value2": "MD_002",
+    "Month_day_Code_Value3": "MD_003",
+    "Month_day_Code_Value4": "MD_004",
+    "Month_day_Code_Value5": "MD_005",
+    "Month_day_Code_Value6": "MD_006",
+    "Month_day_Code_Value7": "MD_007",
+    "Month_day_Code_Value8": "MD_008",
+    "Month_day_Code_Value9": "MD_009",
+    "Month_day_Code_Value10": "MD_0010",
+    "Month_day_Code_Value11": "MD_0011",
+    "Month_day_Code_Value12": "MD_0012",
+
+    "Month_day_Month_Value1": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='January']",
+    "Month_day_Month_Value2": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='February']",
+    "Month_day_Month_Value3": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='March']",
+    "Month_day_Month_Value4": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='April']",
+    "Month_day_Month_Value5": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='May']",
+    "Month_day_Month_Value6": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='June']",
+    "Month_day_Month_Value7": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='July']",
+    "Month_day_Month_Value8": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='August']",
+    "Month_day_Month_Value9": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='September']",
+    "Month_day_Month_Value10": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='October']",
+    "Month_day_Month_Value11": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='November']",
+    "Month_day_Month_Value12": "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='December']",
+
+
+    "Month_day_Month_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@class='v-filterselect-input v-filterselect-input-readonly']",
+    "Month_day_Description_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description']",
+    "description_Filed" : "//*[@id='zrpeuidesigner-1465881492']//div//span[text()='Description']",
+    "save_icon" : "//*[@id='zrpeuidesigner-1465881492']//div//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']//span[text()='^']",
+
+    "Month_day_Description_Value1": "JAN",
+    "Month_day_Description_Value2": "FEB",
+    "Month_day_Description_Value3": "MAR",
+    "Month_day_Description_Value4": "APR",
+    "Month_day_Description_Value5": "MAY",
+    "Month_day_Description_Value6": "JUN",
+    "Month_day_Description_Value7": "JUL",
+    "Month_day_Description_Value8": "AUG",
+    "Month_day_Description_Value9": "SEP",
+    "Month_day_Description_Value10": "OCT",
+    "Month_day_Description_Value11": "NOV",
+    "Month_day_Description_Value12": "DEC",
+
+    "Month_day_Expand" : "//*[@id='zrpeuidesigner-1465881492-overlays']//table//tr//td//div//span[@class='v-treegrid-expander collapsed']",
+    "Select_Month_day" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[@class='v-treegrid-cell v-treegrid-cell-focused']",
+    "Discard" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[@class='v-button-wrap']//span[text()='Discard Changes']"
+
+  },
+
+  "Product" :{
+
+    "Product_Class_Type" : "Deposit",
+    "Product_Features_Type" : "Without_Options",
+    "Product_Features_Type1" : "Options",
+    "Product_Features_Fee_Item_Type" : "Transactional",
+    "Product_Features_Fee_Item_Type1" : "Period",
+    "Pricing" : "//div[@class='popupContent']//table//tr//td//div[text()='Pricing']",
+    "Product_Search_Value" : "Product",
+    "Product_Product_Icon": "//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Product']",
+    "Product_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Product_Code_Value" : "HSAV",
+    "Product_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Product_Name_Value" : "High Interest eSavings",
+    "Product_Desp_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description *']",
+    "Product_Desp_Value" : "An Online Savings Account Offering High Interest On Every Dollar.",
+    "Product_Curr_Icon_Select" : "//div[@class='v-widget v-has-caption v-caption-on-top v-has-width']//div[@ class='v-menubar v-widget']//span[text()='_']",
+    "Product_Curr_Popup" : "//div[@class='v-window-wrap']",
+    "Product_Select_Currency" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[text()='CAD']",
+    "Product_Class_icon" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-filterselect-button']",
+
+    "Product_Class_Dep" : "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='Deposit']",
+    "Product_Class_L_CC" : "//*[@id='VAADIN_COMBOBOX_OPTIONLIST']//div//table//tr//td//span[text()='Loan / Credit Card']",
+
+    "Product_Feature_Tab" : "//table//tr//td[@class='v-tabsheet-tabitemcell']//div[text()='Feature']",
+    "Product_Feature_add_icon" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-first-container v-splitpanel-first-container-master-detail v-scrollable']//div[@class='v-menubar v-widget']//span[@class='v-menubar-menuitem']//span[text()='d']",
+    "Product_Feature_Option" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//span[@class='v-menubar-menuitem-caption'][text()='Product Feature With Options']",
+    "Product_Feature_Without_Option" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//span[@class='v-menubar-menuitem-caption'][text()='Product Feature Without Options']",
+    "Feature_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Code *']",
+    "Feature_Code_Value" : "TRF",
+    "Feature_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Name *']",
+    "Feature_Name_Value" : "Transfers ",
+    "Feature_Desp_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Description *']",
+    "Feature_Desp_Value" : "Transfer of funds via different channels, e.g. at branch, online, ATM, phone, etc. Funds are leaving the bank ",
+    "Feature_Fee_Item_Tab" : "//table//tr//td[@class='v-tabsheet-tabitemcell']//div[text()='Fee Item']",
+    "Feature_Fee_Item_add_icon" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-second-container v-splitpanel-second-container-master-detail v-scrollable']//span[@class='v-menubar-menuitem']//span[text()='d']",
+    "Feature_Fee_Item_Trans" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//span[@class='v-menubar-menuitem-caption'][text()='Transactional Fee Item']",
+    "Feature_Fee_Item_Period" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//span[@class='v-menubar-menuitem-caption'][text()='Periodic Fee Item']",
+
+    "Fee_Item_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Fee Item Code *']",
+    "Fee_Item_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Fee Item Name *']",
+    "Fee_Item_Desp_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Fee Item Description *']",
+    "Fee_Item_Code_Icon" : "//div[@id='com.zafin.zplatform.zrpe.models.FeeItemTransactional.feeCode']//div[@class='v-menubar v-widget']//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']",
+    "Fee_Item_Popup_Search" : "//div//input[@placeholder='Search']",
+
+
+
+    "Fee_Item_Code_Value1" : "TRF-INT-SEND",
+    "Fee_Item_Name_Value1" : "Interface Transfer - Send",
+    "Fee_Item_Desp_Value1" : "Interac e-Transfer fee is charged to have  a convenient way to send directly from one bank account to another.",
+    "Fee_Item_Popup_Search1": "TRF-INT-SEND",
+    "Fee_Item_Popup_Search_value1" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div/table//tr//td[text()='TRF-INT-SEND']",
+    "Fee_Item_Tran_code_Value1" : "EMT-1",
+
+    "Fee_Item_Code_Value2" : "TRF-INT-REC",
+    "Fee_Item_Name_Value2" : "Interface Transfer - Receive",
+    "Fee_Item_Desp_Value2" : "Interac e-Transfer fee is charged to have  a convenient way to request and receive money directly from one bank account to another.",
+    "Fee_Item_Popup_Search2": "TRF-INT-REC",
+    "Fee_Item_Popup_Search_value2" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div/table//tr//td[text()='TRF-INT-REC']",
+    "Fee_Item_Tran_code_Value2" : "EMT-2",
+
+
+    "Prod_Fee_Code_Sel_But" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-menubar v-widget']//span[@class='v-menubar-menuitem']/span[text()='Select (1)']",
+    "Prod_Fee_Item_Tran_Code" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-second-container v-splitpanel-second-container-master-detail v-scrollable']//div[@class='v-slot v-slot-borderless']//div[@class='v-menubar v-widget']//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']//span[text()='d']",
+    "Prod_Tran_code_search" : "//div[@class='v-window-contents']//input[@placeholder='Search']",
+    "Fee_Tran_Code_checkbox" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-window-contents']//table//tr//td//span[@class='v-grid-selection-checkbox']",
+
+    "Feature_Acc_Maint_Code_Value" : "AM",
+    "Feature_Acc_Maint_Name_Value" : "Account Maintenance",
+    "Feature_Acc_Maint_Desp_Value" : "Monthly maintenance fee with minimum Monthly Balance (MMB) to waive monthly fee. Fee includes monthly free transactions. Full-Serve transactions include in-branch transactions (e.g. withdrawals, transfers, or bill payments) performed by a bank employee at a branch (including by way of phone call to branch or mail/fax) or transactions performed via phone by speaking with a banking specialist over the telephone. Definition of minimum monthly balance: You pay no monthly fee if you have the minimum monthly balance indicated or more in your account at the end of each day in the month",
+
+    "Fee_Item_Code_Acc_Mant" : "HSAV-AMF-001",
+    "Fee_Item_Name_Acc_Mant" : "Account Maintenance",
+    "Fee_Item_Desp_Acc_Mant" : "Monthly maintenance fee with minimum Monthly Balance (MMB) to waive monthly fee.",
+
+    "Fee_Item_Fee_Code_value" : "HSAV-AMF-001",
+    "Fee_Item_Code_Icon_Period" : "//div[@id='com.zafin.zplatform.zrpe.models.FeeItemPeriodic.feeCode']//div[@class='v-menubar v-widget']//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']",
+    "Fee_Code_Tran_Code_AMT" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[text()='HSAV-AMF-001']",
+
+
+
+    "Feature_Cash_WD_Code_Value" : "CW",
+    "Feature_Cash_WD_Name_Value" : "Cash Withdrawals",
+    "Feature_Cash_WD_Desp_Value" : "A cash withdrawal involves removing funds from a bank account either from a Bank's Branch or from an Automated Teller Machine (ATM)",
+
+    "Feature_Cash_WD_Option_Tab" : "//table//tr//td[@class='v-tabsheet-tabitemcell']//div[text()='Option']",
+    "Feature_Options_add_icon" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-second-container v-splitpanel-second-container-master-detail v-scrollable']//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']//span[text()='d']",
+
+    "Options_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Option Code *']",
+    "Options_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Option Name *']",
+    "Options_Desp_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Option Description *']",
+
+    "Options_Code_Value" : "CW-ATM",
+    "Options_Name_Value" : "ATM Withdrawal",
+    "Options_Desp_Value" : "ATM Withdrawal",
+
+    "Cash_WD_Option_Fee_Item_Tab" : "//table//tr//td[@class='v-tabsheet-tabitemcell']//div[text()='Fee Item']",
+
+    "Options_Fee_Item_Code_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Fee Item Code *']",
+    "Options_Fee_Item_Name_Field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@placeholder='Fee Item Name *']",
+    "Options_Fee_Item_Desp_Field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@placeholder='Fee Item Description *']",
+
+    "Options_Fee_Code_Icon" : "//*[@id='com.zafin.zplatform.zrpe.models.FeeItemTransactional.feeCode']//input",
+
+    "Options_Fee_Item_Code_Value1" : "CW-ATM-001",
+    "Options_Fee_Item_Code_Value2" : "CW-ATM-002",
+    "Options_Fee_Item_Code_Value3" : "CW-ATM-003",
+    "Options_Fee_Item_Code_Value4" : "CW-ATM-004",
+
+
+    "Options_Fee_Item_Name_Value1" : "PLUS ATM within Canada and U.S",
+    "Options_Fee_Item_Name_Value2" : "PLUS ATM outside Canada and U.S",
+    "Options_Fee_Item_Name_Value3" : "PLUS ATM outside Country",
+    "Options_Fee_Item_Name_Value4" : "Bank Branch outside Country",
+
+
+    "Options_Fee_Item_Desp_Value1" : "Transactions or Debit Transactions include: withdrawals (including ATM) within the country",
+    "Options_Fee_Item_Desp_Value2" : "Transactions or Debit Transactions include: withdrawals (including ATM) within the country from a different bank",
+    "Options_Fee_Item_Desp_Value3" : "Transactions or Debit Transactions include: withdrawals (including ATM) outside Country",
+    "Options_Fee_Item_Desp_Value4" : "Transactions or Debit Transactions include: withdrawals at the outside country - Bank's Branch.",
+
+
+    "Options_Item_Fee_Code_value1" : "CW-ATM-001",
+    "Options_Item_Fee_Code_value2" : "CW-ATM-002",
+    "Options_Item_Fee_Code_value3" : "CW-ATM-003",
+    "Options_Item_Fee_Code_value4" : "CW-ATM-004",
+
+
+
+    "Options_Item_Fee_Code_Select1" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[text()='CW-ATM-001']",
+    "Options_Item_Fee_Code_Select2" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[text()='CW-ATM-002']",
+    "Options_Item_Fee_Code_Select3" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[text()='CW-ATM-003']",
+    "Options_Item_Fee_Code_Select4" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div//table//tr//td[text()='CW-ATM-004']",
+
+    "Options_Trans_Freq1" : "//div//table//tr//td[@class='gwt-MenuItem']//span[text()='Monthly']",
+    "Options_Trans_Freq2" : "//div//table//tr//td[@class='gwt-MenuItem gwt-MenuItem-selected']//span[text()='Daily']",
+    "Options_Trans_Freq3" : "//div//table//tr//td[@class='gwt-MenuItem']//span[text()='Monthly']",
+    "Options_Trans_Freq4" : "//div//table//tr//td[@class='gwt-MenuItem']//span[text()='Monthly']",
+
+    "Option_Trans_Code_Icon" : "//div[@class='v-gridlayout v-layout v-widget v-has-width v-gridlayout-margin-top v-gridlayout-margin-right v-gridlayout-margin-bottom v-gridlayout-margin-left']//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']//span [text()='d']",
+
+    "Options_Tran_Code1" : "ATM",
+    "Options_Tran_Code2" : "OATM",
+    "Options_Tran_Code3" : "OATM-1",
+    "Options_Tran_Code4" : "CWBRN",
+
+    "Plan_Tab" : "//table//tr//td[@class='v-tabsheet-tabitemcell']//div[text()='Plan']",
+    "Create_Plan_Icon" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-verticallayout v-layout v-vertical v-widget v-has-width v-margin-top v-margin-right v-margin-bottom v-margin-left']//div//span [@class='v-menubar-menuitem v-menubar-menuitem-icon-only']",
+
+
+    "Plan_Create_button" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//div[@class='v-menubar v-widget']//span[text()='Create']",
+    "Plan_Overview_Code_field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@ placeholder='Code *']",
+    "Plan_Overview_Name_field": "//*[@id='zrpeuidesigner-1465881492']//div//input[@ placeholder='Name *']",
+    "Plan_Overview_Desp_field": "//*[@id='zrpeuidesigner-1465881492']//div//textarea[@ placeholder='Description *' ]",
+
+    "Plan_Overview_Code_value": "HSAV-DP1",
+    "Plan_Overview_Name_value": "High Interest eSavings - Default Plan",
+    "Plan_Overview_Desp_value": "High Interest eSavings - Default Plan",
+
+    "Plan_Overview_Default_Switch" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-switch v-widget form-field-margin v-switch-form-field-margin off']",
+
+    "Plan_Temporal_CP" : "//*[@id='zrpeuidesigner-1465881492']//div//span[text()='Selected Range']",
+    "Plan_fee_Temporal" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-verticallayout v-layout v-vertical v-widget temporal-section v-verticallayout-temporal-section v-has-width v-margin-top v-margin-right v-margin-bottom v-margin-left']//div//span[@class='v-menubar-menuitem v-menubar-menuitem-icon-only']//span[text()='d']",
+    "Plan_temporal_popup" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-popupview-popup']",
+    "Plan_temporal_from_date" : "//*[@id='zrpeuidesigner-1465881492-overlays']//input[@class='v-textfield v-datefield-textfield']",
+    "Plan_temporal_from_date_value" : "4/1/18",
+
+    "Plan_temporal_ok" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='v-popupview-popup']//div//span[@class='v-menubar-menuitem-caption']/span[text()='']",
+    "Plan_Feature_Item1" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-first-container v-splitpanel-first-container-master-detail v-scrollable']//div[@class='v-panel-content v-panel-content-borderless v-panel-content-designerList v-scrollable']//div[text()='Account Maintenance (Account Maintenance)']",
+    "Plan_Feature_Item2" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-first-container v-splitpanel-first-container-master-detail v-scrollable']//div[@class='v-panel-content v-panel-content-borderless v-panel-content-designerList v-scrollable']//div[text()='Bank Branch outside Country (ATM Withdrawal) (Cash Withdrawals)']",
+    "Plan_Feature_Item3" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-first-container v-splitpanel-first-container-master-detail v-scrollable']//div[@class='v-panel-content v-panel-content-borderless v-panel-content-designerList v-scrollable']//div[text()='PLUS ATM outside Canada and U.S (ATM Withdrawal) (Cash Withdrawals)']",
+    "Plan_Feature_Item4" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-first-container v-splitpanel-first-container-master-detail v-scrollable']//div[@class='v-panel-content v-panel-content-borderless v-panel-content-designerList v-scrollable']//div[text()='PLUS ATM outside Country (ATM Withdrawal) (Cash Withdrawals)']",
+    "Plan_Feature_Item5" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-first-container v-splitpanel-first-container-master-detail v-scrollable']//div[@class='v-panel-content v-panel-content-borderless v-panel-content-designerList v-scrollable']//div[text()='PLUS ATM within Canada and U.S (ATM Withdrawal) (Cash Withdrawals)']",
+    "Plan_Feature_Item6" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-first-container v-splitpanel-first-container-master-detail v-scrollable']//div[@class='v-panel-content v-panel-content-borderless v-panel-content-designerList v-scrollable']//div[text()='Interface Transfer - Receive (Transfers )']",
+    "Plan_Feature_Item7" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-splitpanel-first-container v-splitpanel-first-container-master-detail v-scrollable']//div[@class='v-panel-content v-panel-content-borderless v-panel-content-designerList v-scrollable']//div[text()='Interface Transfer - Send (Transfers )']",
+
+
+
+    "Plan_Feature_Create" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-panel-content v-panel-content-borderless v-panel-content-viewSectionPadding v-panel-content-material-form v-scrollable']//span[@class='v-menubar-menuitem-caption'][text()='Create']",
+    "Plan_ACC_MAN_Field" : "//div//input[@placeholder= 'Amount *']",
+    "Plan_ACC_MAN_Field1" : "//div//input[@placeholder= '']",
+    "Plan_ACC_Percentage_Field" : "//div//input[@placeholder='Percentage of Value *']",
+    "Plan_ACC_Percentage_Field1" : "//div//input[@placeholder='']",
+    "Filter_checkpoint" : "//div//input[@placeholder='Filter']",
+
+    "Plan_ACC_MAN_Value1" : "5",
+    "Plan_ACC_MAN_Value2" : "5",
+    "Plan_ACC_MAN_Value3" : "15",
+    "Plan_ACC_MAN_Value4" : "20",
+    "Plan_ACC_Percentage_Value1" : "20",
+    "Plan_Feature_Create_Tired" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//span[text() = 'Tiered']",
+    "Plan_Feature_Create_Simple" : "//*[@id='zrpeuidesigner-1465881492-overlays']//div[@class='popupContent']//span[text() = 'Simple']",
+    "Select_Whole_Tier" : "//div[@class='v-csslayout v-layout v-widget card v-csslayout-card material-form v-csslayout-material-form v-has-width']//span[@class='v-radiobutton v-select-option']//label[text()='Whole Tier']",
+    "Select_Progressive_Tier" : "//div[@class='v-csslayout v-layout v-widget card v-csslayout-card material-form v-csslayout-material-form v-has-width']//span[@class='v-radiobutton v-select-option']//label[text()='Progressive Tier']",
+    "Select_Tier_Volume" : "//div[@class='v-csslayout v-layout v-widget card v-csslayout-card material-form v-csslayout-material-form v-has-width']//span[@class='v-radiobutton v-select-option']//label[text()='Volume']",
+    "Tier_Volume_Value_Input" : "//div//input[@ placeholder='Enter Comma Separated Tier End Points']",
+    "Tier_Volume_Value_Input_Value" : "5,10,15",
+    "Tier_Table_Checkpoint" : "//table//thead//tr//th//div[@class='v-grid-column-header-content v-grid-column-default-header-content']",
+    "Tier_Value_Field_1" : "//*[@id='zrpeuidesigner-1465881492']//div//table/tbody//tr[1]/td[4]/div/input",
+    "Tier_Value_Field_2" : "//*[@id='zrpeuidesigner-1465881492']//div//table/tbody//tr[2]/td[4]/div/input",
+    "Tier_Value_Field_3" : "//*[@id='zrpeuidesigner-1465881492']//div//table/tbody//tr[3]/td[4]/div/input",
+    "Tier_Value_Field_4" : "//*[@id='zrpeuidesigner-1465881492']//div//table/tbody//tr[4]/td[4]/div/input",
+    "Tier_Field_Value_1" : "3",
+    "Tier_Field_Value_2" : "4",
+    "Tier_Field_Value_3" : "5",
+    "Tier_Field_Value_4" : "10",
+    "Tier_Field_Value_5" : "1",
+    "Tier_Field_Value_6" : "2",
+    "Tier_Field_Value_7" : "3",
+    "Tier_Field_Value_8" : "4",
+
+    "Select_Percentage" : "//div//span[@class='v-radiobutton v-select-option']//label[text()='Percentage']"
+  },
+
+  "Workflow" : "//div[@class='popupContent']//div[@class='v-window-outerheader']//div[@class='v-window-header']",
+  "Popup" : "//div[@class='popupContent']//div[@class='v-window-header']",
+  "Send" : "//*[@id='zrpeuidesigner-1465881492-overlays']/div[3]/div/div/div[3]/div/div/div/div[3]/div/div/div[3]/div",
+  "Review" : "//*[@id='zrpeuidesigner-1465881492']//div[@class='v-button v-widget z-button v-button-z-button workspace-state-read-only v-button-workspace-state-read-only']//span[@class='v-button-wrap']/span[text()='Review']",
+  "Logout" : "element(by.xpath('//*[@id='zrpeuidesigner-1465881492-overlays']//div//span[text()='Logout']'))"
+
+}
