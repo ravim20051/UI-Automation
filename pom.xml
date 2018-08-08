@@ -1,16 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<!-- <parent>
+	<!--<parent>
 		<groupId>com.zafin.zrpe</groupId>
 		<artifactId>zrpe.integration</artifactId>
-		<version>5.3.0-SNAPSHOT</version>
+		<version>5.3.0-SNAPSHOoT</version>
 		<relativePath>../../pom.xml</relativePath>
-	</parent> -->
+	</parent>-->
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>UI-Automation</groupId>
-	<artifactId>UI-Automation</artifactId>
+	<groupId>uiAutoTestsRPE</groupId>
+	<artifactId>uiAutoTestsRPE</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<!-- 	<artifactId>zrpe.integration.regressiontests.uitests</artifactId>
-	<version>1.0-SNAPSHOT</version> -->
 	<properties>
 		<allure.version>1.4.15</allure.version>
 		<allure.maven.version>2.2</allure.maven.version>
@@ -18,42 +16,25 @@
 		<allure.results_pattern>output</allure.results_pattern>
 	</properties>
 	<dependencies>
-		<!-- 	<dependency>
-			<groupId>org.allurefw.report</groupId>
-			<artifactId>packages-plugin</artifactId>
-			<version>2.0-M1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.npm</groupId>
-			<artifactId>jasmine-core</artifactId>
-			<version>3.1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.npm</groupId>
-			<artifactId>protractor</artifactId>
-			<version>5.1.1</version>
-		</dependency> -->
-		
-		<!-- https://mvnrepository.com/artifact/org.webjars/angular-protractor -->
-		<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>angular-protractor</artifactId>
-			<version>1.6.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.npm</groupId>
-			<artifactId>npm-package-arg</artifactId>
-			<version>6.1.0</version>
-		</dependency>
 		<dependency>
 			<groupId>ru.yandex.qatools.allure</groupId>
 			<artifactId>allure-report-face</artifactId>
 			<version>${allure.version}</version>
 			<type>war</type>
-		</dependency>		
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>9.2.10.v20150310</version>
+				<configuration>
+					<webAppSourceDirectory>target/site/allure-maven-plugin</webAppSourceDirectory>
+					<stopKey>stop</stopKey>
+					<stopPort>2299</stopPort>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>com.github.greengerong</groupId>
 				<artifactId>maven-ng-protractor</artifactId>
